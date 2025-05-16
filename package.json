@@ -1,0 +1,18 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node collection/dbInizialization.js",
+    "create": "node collection/create.js"
+  },
+  "author": "Bella",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.5.0",
+    "mongodb": "^6.16.0"
+  }
+}
