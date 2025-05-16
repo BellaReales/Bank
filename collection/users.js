@@ -7,7 +7,7 @@ export class CrearUserCollection extends createCollection {
                 bsonType: "object",
                 required: ["doc", "name", "email", "password", "balance"],
                 properties: {
-                    doc: { bsonType: "string" }, // identificador único
+                    doc: { bsonType: "string" }, 
                     name: { bsonType: "string" },
                     email: { bsonType: "string" },
                     password: { bsonType: "string" },
